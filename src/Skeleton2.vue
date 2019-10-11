@@ -1,3 +1,4 @@
+// 骨架屏自定义页面2
 <template>
     <div class="skeleton-wrapper">
         <header class="skeleton-header"></header>
@@ -19,7 +20,7 @@ export default {
 
 .skeleton-header {
     height: 152px;
-    background: grey;
+    background: yellow;
     margin-top: 60px;
     width: 152px;
     margin: 60px auto;

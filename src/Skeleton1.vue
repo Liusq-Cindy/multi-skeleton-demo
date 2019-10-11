@@ -1,5 +1,6 @@
+// 骨架屏自定义页面1
 <template>
-    <div class="skeleton-wrapper">Skeleton For Home</div>
+    <div class="skeleton-wrapper">Skeleton For Home!!!!!!!骨架屏自定义页面1</div>
 </template>
 
 <script>

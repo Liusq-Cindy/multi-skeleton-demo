@@ -60,11 +60,13 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     }),
     // inject skeleton content(DOM & CSS) into HTML
     new SkeletonWebpackPlugin({
+      // webpackconfig为渲染skeleton的webpack配置对象，这里将所有的配置单独写成了一个配置文件。webpack.skeleton.conf.js
       webpackConfig: require('./webpack.skeleton.conf'),
       quiet: true,
       minimize: true,
       router: {
         mode: 'hash',
+        // 以下给对应的路由页面配置了不同的骨架屏
         routes: [
           {
             path: '/page1',
